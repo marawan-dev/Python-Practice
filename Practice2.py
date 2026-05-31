@@ -94,3 +94,24 @@ intro1 *= 2
 intro1 += intro2
 print(intro1)
 
+#logical operations
+#var1 (operation) var2
+# != means not equal to
+print(4==5,6>5,5!=5)
+
+# "pass" can be used as a placeholder
+
+age = 17
+
+if age >= 18:
+    print('Adult')
+elif age >= 13:
+    print('Teen')
+else:
+    print('Child')
+
+present = True
+print(present and age)
+
+if not present:
+    print('Absent')

@@ -34,16 +34,6 @@ for day in days:
 import math
 print(math.pi)
 
-name_var = 'Marawan'
-print("Hi", name_var, "Jarvis here")
-date_var = 19
-print("It's", date_var)
-online_stat = True
-print("Online", online_stat)
-tasks = {"Update the software", "Ship the demo", "Check the DNS"}
-print(tasks)
-target_id = {"Name": "Bill", "Age": 83}
-print("New target", target_id)
 #var = range(int) used for loops
 #isinstance(var_1,var_2) checks if both are the same
 # / is for "''"
