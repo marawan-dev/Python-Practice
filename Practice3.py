@@ -2,11 +2,6 @@
 # input(), optional text inside
 # use help(str) for functions
 
-#baby yoda meme
-def bym():
-    print('Hello there')
-bym()
-
 #simple adder
 def add(x, y):
     ans = x + y
@@ -80,3 +75,52 @@ print(group_ages.count(16))
 
 sorted_group_names = sorted(group_names, key=len)
 print(sorted_group_names)
+
+## loops
+for name in group_names:
+    if name == 'Adam':
+        continue # break is used to skip the entire loop
+    print(name)
+
+name_1 = group_names[0]
+
+for char in name_1:
+    print(char)
+
+names = ['Ali', 'Sara', 'Omar', 'Lina']
+for name in names:
+    print(name)
+
+num = 1
+while num <= 10:
+    print(num)
+    num += 1
+
+word = 'freeCodeCamp'
+count = 0
+for char in word:
+    for vowel in 'aeiou':
+        if char.lower() == vowel:
+            count += 1
+print(count)
+
+numbers = [5, 12, 7, -3, 10, -8]
+for number in numbers:
+    if number == -3:
+        print(number)
+        break
+
+numbers = [1, 2, 3, 4, 5, 6]
+for number in numbers:
+    if number % 2:
+        print(number)
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for number in numbers:
+    print(5 * number)
+
+rows = 3
+num = 1
+while num <= rows:
+    print('***')
+    num += 1
