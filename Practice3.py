@@ -124,3 +124,18 @@ num = 1
 while num <= rows:
     print('***')
     num += 1
+
+## range loops
+num = 0
+for num in range(50,0,-10):
+    print(num)
+
+# list + loops
+num = list(range(2,20,2))
+print(num)
+
+square = lambda x: x ** 2
+even = lambda x: x % 2 == 0
+
+print(list(map(square, numbers)))
+print(list(filter(even, numbers)))
